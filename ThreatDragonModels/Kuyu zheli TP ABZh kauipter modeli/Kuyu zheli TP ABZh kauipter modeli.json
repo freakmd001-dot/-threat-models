@@ -1,0 +1,18 @@
+{
+  "version": "2.6.2",
+  "release_version": "",
+  "released_at": "2026-10-07",
+  "summary": {
+    "title": "Kuyu zheli TP ABZh kauipter modeli",
+    "owner": "ешим ",
+    "description": "Құю желісінің автоматтандырылған басқару жүйесі. IT және OT сегменттерінен тұрады. Негізгі компоненттер: PLC-1 (конвейер), PLC-2 (дозаторлар), SCADA, HMI, инженерлік станция, Historian, IT-сервер.",
+    "id": 0
+  },
+  "detail": {
+    "contributors": [],
+    "diagrams": [],
+    "diagramTop": 0,
+    "reviewer": "",
+    "threatTop": 0
+  }
+}
