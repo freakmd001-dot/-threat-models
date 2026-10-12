@@ -94,7 +94,7 @@
           {
             "position": {
               "x": 2099.999999999998,
-              "y": 2000.0000000000027
+              "y": 1990
             },
             "size": {
               "width": 1160,
@@ -1928,7 +1928,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
+              "name": "Рұқсат етілген",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -1942,7 +1942,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Data Flow"
+              "Рұқсат етілген"
             ],
             "id": "b06c201f-067b-4773-b9ef-a994717d25ca",
             "source": {
@@ -1952,7 +1952,8 @@
             "target": {
               "cell": "7db83cbe-621d-4b85-9f90-16f5ceef1958",
               "port": "b959e3f9-b506-4700-9981-1a54f7ed51f5"
-            }
+            },
+            "vertices": []
           },
           {
             "shape": "flow",
@@ -2279,7 +2280,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
+              "name": "Рұқсат етілген",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -2293,7 +2294,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Data Flow"
+              "Рұқсат етілген"
             ],
             "id": "6a2f8f91-bc46-4118-b765-091f007889ac",
             "source": {
