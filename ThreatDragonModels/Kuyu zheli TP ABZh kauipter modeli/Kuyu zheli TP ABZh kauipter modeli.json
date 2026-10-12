@@ -35,8 +35,8 @@
             },
             "visible": true,
             "shape": "trust-boundary-box",
-            "id": "566d14b4-52f9-43d3-bbe6-8d1e7867c5e7",
             "zIndex": -1,
+            "id": "566d14b4-52f9-43d3-bbe6-8d1e7867c5e7",
             "data": {
               "type": "tm.BoundaryBox",
               "name": "Корпоративтік IT",
@@ -70,8 +70,8 @@
             },
             "visible": true,
             "shape": "trust-boundary-box",
-            "id": "77a63601-ee10-43ed-be7a-a0c8bd2ec7a3",
             "zIndex": -1,
+            "id": "77a63601-ee10-43ed-be7a-a0c8bd2ec7a3",
             "data": {
               "type": "tm.BoundaryBox",
               "name": "DMZ",
@@ -102,8 +102,8 @@
             },
             "visible": true,
             "shape": "trust-boundary-box",
-            "id": "0ebaf01b-52fc-4c0b-8667-e5c2635acd5c",
             "zIndex": -1,
+            "id": "0ebaf01b-52fc-4c0b-8667-e5c2635acd5c",
             "data": {
               "type": "tm.BoundaryBox",
               "name": "Өнеркәсіптік OT",
@@ -143,6 +143,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 0,
             "ports": {
               "groups": {
                 "top": {
@@ -226,7 +227,6 @@
               ]
             },
             "id": "38ab891e-e06f-4cfe-a7d4-f2ee8d62b6ad",
-            "zIndex": 0,
             "data": {
               "type": "tm.Process",
               "name": "IT-ПК",
@@ -263,6 +263,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 1,
             "ports": {
               "groups": {
                 "top": {
@@ -346,7 +347,6 @@
               ]
             },
             "id": "4087fcc5-2b1d-4ff0-848d-ad6bba67b02b",
-            "zIndex": 1,
             "data": {
               "type": "tm.Process",
               "name": "IT-Сервер",
@@ -383,6 +383,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 2,
             "ports": {
               "groups": {
                 "top": {
@@ -466,7 +467,6 @@
               ]
             },
             "id": "e68afc3e-e02a-4218-a3c0-4deb2f7cdcc3",
-            "zIndex": 2,
             "data": {
               "type": "tm.Process",
               "name": "Желілік экран IT",
@@ -503,6 +503,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 3,
             "ports": {
               "groups": {
                 "top": {
@@ -586,7 +587,6 @@
               ]
             },
             "id": "2328a912-cc47-4e9f-ae86-eb0a0e428e45",
-            "zIndex": 3,
             "data": {
               "type": "tm.Actor",
               "name": "ИНТЕРНЕТ",
@@ -620,6 +620,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 4,
             "ports": {
               "groups": {
                 "top": {
@@ -703,7 +704,6 @@
               ]
             },
             "id": "0f7e2b2c-6deb-41d4-b0b4-97eb6445f3f6",
-            "zIndex": 4,
             "data": {
               "type": "tm.Process",
               "name": "Қашықтан қол жеткізу",
@@ -740,6 +740,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 5,
             "ports": {
               "groups": {
                 "top": {
@@ -823,7 +824,6 @@
               ]
             },
             "id": "92000516-c7e6-47e4-82e2-86510b8038ac",
-            "zIndex": 5,
             "data": {
               "type": "tm.Process",
               "name": "IT/OT Желілік экран",
@@ -860,6 +860,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 6,
             "ports": {
               "groups": {
                 "top": {
@@ -943,7 +944,6 @@
               ]
             },
             "id": "7c5b83b1-4c17-4b26-a9c5-4e7e9e07a5e1",
-            "zIndex": 6,
             "data": {
               "type": "tm.Process",
               "name": "\tJump Server",
@@ -983,6 +983,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 7,
             "ports": {
               "groups": {
                 "top": {
@@ -1066,7 +1067,6 @@
               ]
             },
             "id": "7f837e3c-56c2-477d-abd0-8b5e8fd40290",
-            "zIndex": 7,
             "data": {
               "type": "tm.Store",
               "name": "\tHistorian",
@@ -1104,6 +1104,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 8,
             "ports": {
               "groups": {
                 "top": {
@@ -1187,7 +1188,6 @@
               ]
             },
             "id": "4573a0b8-2bd4-4192-85d8-5c1b9e7ee963",
-            "zIndex": 8,
             "data": {
               "type": "tm.Process",
               "name": "OT Желілік экран",
@@ -1224,6 +1224,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 9,
             "ports": {
               "groups": {
                 "top": {
@@ -1307,7 +1308,6 @@
               ]
             },
             "id": "7db83cbe-621d-4b85-9f90-16f5ceef1958",
-            "zIndex": 9,
             "data": {
               "type": "tm.Process",
               "name": "SCADA-Сервер",
@@ -1344,6 +1344,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 10,
             "ports": {
               "groups": {
                 "top": {
@@ -1427,7 +1428,6 @@
               ]
             },
             "id": "e134cac8-317a-49b3-a5de-0d44500f0bd9",
-            "zIndex": 10,
             "data": {
               "type": "tm.Process",
               "name": "HMI-Панель",
@@ -1621,6 +1621,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 11,
             "ports": {
               "groups": {
                 "top": {
@@ -1704,7 +1705,6 @@
               ]
             },
             "id": "e4bd48b7-e504-48f8-8b92-9db37da61393",
-            "zIndex": 11,
             "data": {
               "type": "tm.Process",
               "name": "Инженерлік станция",
@@ -1741,6 +1741,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 12,
             "ports": {
               "groups": {
                 "top": {
@@ -1824,7 +1825,6 @@
               ]
             },
             "id": "ed3149b5-549c-4e7a-9d15-47465f189e94",
-            "zIndex": 12,
             "data": {
               "type": "tm.Process",
               "name": "Өнеркәсіптік коммутатор",
@@ -1861,6 +1861,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 13,
             "ports": {
               "groups": {
                 "top": {
@@ -1944,7 +1945,6 @@
               ]
             },
             "id": "584404ba-a224-4b9e-bd6a-2a245777fc2f",
-            "zIndex": 13,
             "data": {
               "type": "tm.Process",
               "name": "PLC-1 (Конвейер)",
@@ -1981,6 +1981,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 14,
             "ports": {
               "groups": {
                 "top": {
@@ -2064,7 +2065,6 @@
               ]
             },
             "id": "e547caeb-8c8f-4e0e-b557-74df99eaf400",
-            "zIndex": 14,
             "data": {
               "type": "tm.Process",
               "name": "PLC-2 (Дозаторлар)",
@@ -2101,6 +2101,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 15,
             "ports": {
               "groups": {
                 "top": {
@@ -2184,7 +2185,6 @@
               ]
             },
             "id": "524e7ec1-969d-41ce-b17a-02a6be989058",
-            "zIndex": 15,
             "data": {
               "type": "tm.Actor",
               "name": "Датчиктер",
@@ -2218,6 +2218,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 16,
             "ports": {
               "groups": {
                 "top": {
@@ -2301,7 +2302,6 @@
               ]
             },
             "id": "3ecf49a9-cefb-4da8-948c-7f59e1f274fc",
-            "zIndex": 16,
             "data": {
               "type": "tm.Actor",
               "name": "Атқарушы механизмдер",
